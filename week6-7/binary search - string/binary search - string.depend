@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1642514273 source:c:\users\admin\onedrive\máy tính\cbasic - copy\week6-7\binary search - string\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

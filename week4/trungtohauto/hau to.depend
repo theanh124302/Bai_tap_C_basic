@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1639416081 source:c:\users\admin\onedrive\máy tính\cbasicgk\bai2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

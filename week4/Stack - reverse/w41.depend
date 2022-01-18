@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1639375722 source:c:\users\admin\onedrive\máy tính\cbasic - copy\week4\w41\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

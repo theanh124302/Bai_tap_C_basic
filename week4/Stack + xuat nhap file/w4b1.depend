@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1636820868 source:c:\users\admin\onedrive\máy tính\hta02\w4b1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1636823188 source:c:\users\admin\onedrive\máy tính\cbasic\week4\w4b1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1639375722 source:c:\users\admin\onedrive\máy tính\cbasic - copy\week4\stack + xuat nhap file\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
