@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <stdbool.h>
-#define SIZE 23
+#define m 23
 struct Hash {
     int value;
     int k;
 };
+int n=0;
 typedef struct Hash *hash;
-hash hashtable[SIZE];
+hash hashtable[25];
 int hashcode(int k) {
-    return k % SIZE;
+    return k % m;
 }
 
 hash search(int k) {
@@ -18,21 +18,30 @@ hash search(int k) {
     while(hashtable[i] != NULL) {
         if(hashtable[i]->k == k)
             return hashtable[i];
-        ++i;
-        i %= SIZE;
+        i=i*i;
+        i %= m;
     }
     return NULL;
 }
 
 void insert(int k,int value) {
+    if(n==25){
+        printf("ham bam day!\n");
+        return;
+    }
+    if(search(k)!=NULL){
+        printf("khong them duoc phan tu do da ton tai key %d\n",k);
+        return;
+    }
     hash p = (hash)malloc(sizeof(struct Hash));
     p->value = value;
     p->k = k;
     int i = hashcode(k);
-    while(hashtable[i] != NULL && hashtable[i]->k != -1) {
-        ++i;
-        i %= SIZE;
+    while(hashtable[i] != NULL) {
+        i=i*i;
+        i %= m;
     }
+    n++;
     hashtable[i] = p;
 }
 hash delete(hash p) {
@@ -42,10 +51,11 @@ hash delete(hash p) {
         if(hashtable[i]->k == k) {
             hash a = hashtable[i];
             hashtable[i] = NULL;
+            n--;
             return a;
         }
-        ++i;
-        i %= SIZE;
+        i=i*i;
+        i %= m;
     }
     return NULL;
 }
@@ -60,7 +70,11 @@ int main() {
     insert(17, 11);
     insert(13, 78);
     insert(37, 97);
-    for(int i = 0; i<SIZE; i++) {
+    insert(7, 11);
+    insert(3, 78);
+    insert(25,1);
+    insert(2,30);
+    for(int i = 0; i<25; i++) {
         if(hashtable[i] != NULL)
             printf("(%d,%d)\n",hashtable[i]->k,hashtable[i]->value);
         else

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1642602148 source:c:\users\admin\onedrive\máy tính\cau lieu\double hashing\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+

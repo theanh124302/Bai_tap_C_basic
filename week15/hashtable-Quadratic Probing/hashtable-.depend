@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1642575760 source:c:\users\admin\onedrive\máy tính\cau lieu\hashtable-\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1642600588 source:c:\users\admin\onedrive\máy tính\hoangtheanh-20204938\week15\hashtable-open addressing-quadratic probing\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<stdbool.h>
+
