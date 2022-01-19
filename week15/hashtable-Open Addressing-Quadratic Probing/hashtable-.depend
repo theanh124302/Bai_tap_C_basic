@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1642575760 source:c:\users\admin\onedrive\máy tính\cau lieu\hashtable-\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<stdbool.h>
+
