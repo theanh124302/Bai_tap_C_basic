@@ -26,7 +26,7 @@ void inorder(node root)
 {
     if (root != NULL) {
         inorder(root->left);
-        printf("(%d, %s ) -> ", root->key, root->dochoi);
+        printf("(%d, %s )  ", root->key, root->dochoi);
         inorder(root->right);
     }
 }
@@ -159,35 +159,106 @@ void docfileB(char s[], arr array[])
         strcpy(array[dem].ten,ten);
     }
 }
-void timkiem(arr array[], node root)
+void xoaphantutrung(arr array[], node root)
 {
     int i=0;
     node p;
-    while(&array[i].key!=NULL){
+    while(array[i].key!=-1){
         p = Search(root,array[i].key);
         if(p!=NULL){
-            printf("%d - %s \n",p->key, p->dochoi);
+            printf("\nEm nho bi trung : %d - %s \n",p->key, p->dochoi);
             deleteNode(root,p->key);
+            return;
         }
         i++;
     }
 }
+void chenmangcautrucvaocay(arr array[], node root)
+{
+    int i=0;
+    while(array[i].key!=-1){
+        insert(root,array[i].key,array[i].ten);
+        i++;
+    }
+}
+
+
 
 int main()
 {
-    char a,s[1000];
+    char a,sa[1000];
+    arr array[100];
     int i=0;
-    FILE *f = fopen("ds.txt","r");
-    while (fscanf(f,"%c",&a)!=EOF){
-        s[i]=a;
+    FILE *fa = fopen("fileA.txt","r");
+    while (fscanf(fa,"%c",&a)!=EOF){
+        sa[i]=a;
         i++;
     }
-    fclose(f);
-    s[i]='\0';
-    node root = docfileA(s);
-    arr array[100];
-    docfileB(s,array);
-    printf("In theo thu tu key: ");
-    inorder(root);
-    //timkiem(array,root);
+    fclose(fa);
+    sa[i]='\0';
+    char b,sb[1000];
+    i=0;
+    FILE *fb = fopen("fileB.txt","r");
+    while (fscanf(fb,"%c",&b)!=EOF){
+        sb[i]=b;
+        i++;
+    }
+    fclose(fb);
+    sb[i]='\0';
+        for(i=0;i<100;i++){
+        array[i].key=-1;
+    }
+    node root =NULL;
+    int kiemtranhapA=0,kiemtranhapB=0,n;
+    printf("CHUONG TRINH PHAT QUA CHO CAC EM NHO\n1. Nhap vao file A\n2. Nhap vao file B\n3. Xoa phan tu trung voi mang tren cay nhi phan\n4. Chen them mang vao cay nhi phan\n5. Thoat.\n");
+    while(1){
+        printf("\nHay chon tu 1 den 5.\n");
+        fflush(stdin);
+        scanf("%d",&n);
+        if(n<1||n>5){
+            printf("\nVui long chon lai tu 1 den 5: ");
+            fflush(stdin);
+            scanf("%d",&n);
+        }
+        if(n==1){
+            root = docfileA(sa);
+            printf("\nCay nhi phan sau khi nhap:\n");
+            inorder(root);
+            kiemtranhapA=1;
+        }
+        if(n==2){
+            docfileB(sb,array);
+            printf("\nMang sau khi nhap:\n");
+            i=0;
+            while(array[i].key!=-1){
+                printf("(%d %s) ",array[i].key,array[i].ten);
+                i++;
+            }
+            kiemtranhapB=1;
+        }
+        if((n!=1&&n!=2)&&n!=5){
+            if(kiemtranhapA==0){
+                printf("\nVui long nap file A danh sach vao truoc khi muon thuc hien thao tac khac.\n");
+                continue;
+            }
+            if(kiemtranhapB==0){
+                printf("\nVui long nap file B danh sach vao truoc khi muon thuc hien thao tac khac.\n");
+                continue;
+            }
+        }
+        if(n==3){
+            xoaphantutrung(array,root);
+            printf("\ncay nhi phan sau khi xoa la :\n");
+            inorder(root);
+        }
+        if(n==4){
+            chenmangcautrucvaocay(array,root);
+            printf("\ncay nhi phan sau khi chen them :\n");
+            inorder(root);
+        }
+        if(n==5){
+            printf("\nthoat.");
+            break;
+        }
+    }
 }
