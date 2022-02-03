@@ -25,6 +25,16 @@ void inorder(node root)
         inorder(root->right);
     }
 }
+
+void inorderfile(node root, FILE *kq)
+{
+    if (root != NULL) {
+        inorderfile(root->left,kq);
+        fprintf(kq,"%s\t%d\n", root->doibong, root->diem);
+        inorderfile(root->right,kq);
+    }
+}
+
 node insert(node root, char a[])
 {
     if (root == NULL) return newnode(a);
@@ -157,19 +167,21 @@ void xuonghang(node root, node p, int dxh)
 int main()
 {
     FILE *f = fopen("file.txt","r");
+    FILE *kq = fopen("ketqua.txt","w+");
     node root = NULL;
+    int xh=0;
     char madoi[20];
-    printf("CHUONG TRINH PHAT QUA CHO CAC EM NHO\n1. Nap vao file\n2. Inorder\n3. Tim kiem doi bong\n4. Cac doi xuong hang\n5. Thoat.\n");
+    printf("CHUONG TRINH PHAT QUA CHO CAC EM NHO\n1. Nap vao file\n2. Inorder\n3. Tim kiem doi bong\n4. Cac doi xuong hang\n5. Xuat file.\n6. Thoat.\n");
     while(1){
-        printf("\nHay chon tu 1 den 5.\n");
+        printf("\nHay chon tu 1 den 6.\n");
         fflush(stdin);
         scanf("%d",&luachon);
         if(luachon==1&&kiemtranhap==1){
             printf("Ban da nap file, vui long chon tac vu khac hoac thoat ra de nap file moi.\n");
             continue;
         }
-        if(luachon<1||luachon>5){
-            printf("\nVui long chon lai tu 1 den 5: ");
+        if(luachon<1||luachon>6){
+            printf("\nVui long chon lai tu 1 den 6: ");
             fflush(stdin);
             scanf("%d",&luachon);
         }
@@ -224,16 +236,28 @@ int main()
             }
             printf("Cac doi con lai la :\n");
             inorder(root);
+            xh=1;
             if(root->right==NULL&&root->left==NULL){
                 printf("Con duy nhat 1 doi nen giai da giai tan, cam on!\n");
                 luachon=5;
             }
         }
         if(luachon==5){
+            if(xh==1){
+                printf("Da xuat kq ra file.\n");
+                inorderfile(root,kq);
+            }
+            else{
+                printf("Vui long thuc hien thao tac 4 truoc!\n");
+                continue;
+            }
+        }
+        if(luachon==6){
             printf("\nthoat.");
             break;
         }
     }
     fclose(f);
+    fclose(kq);
 }
 
