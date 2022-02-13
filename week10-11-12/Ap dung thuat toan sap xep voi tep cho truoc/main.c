@@ -1,3 +1,9 @@
+/*Nap vao 1 danh sach gom hoten, sdt, gmail bang file dau vao, dung cac thuat toan sap xep de sap xep lai danh sach theo thu tu tang dan cua ten.
+Vi du ten day du la Hoang The Anh thi phan dung de sap xep la "Anh"
+vi du: Nguyen A B, Nguyen B A sau khi sap xep se la :
+Nguyen B A, Nguyen A B.*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -53,9 +59,39 @@ void tach(ds *f)
         f->dem[x-i-1]=f->ten[x];
     }
 }
-
-
-
+void insertionSort(ds arr[], int n)
+{
+   int i, j;
+   ds key;
+   for (i = 1; i < n; i++)
+   {
+       key = arr[i];
+       j = i-1;
+       while (j >= 0 && (strcmp(arr[j].ten, key.ten)>0))
+       {
+           arr[j+1] = arr[j];
+           j = j-1;
+       }
+       arr[j+1] = key;
+   }
+}
+void selectionSort(ds arr[], int n)
+{
+    int i, j, min;
+    ds temp;
+    for (i = 0; i < n-1; i++)
+    {
+    min = i;
+        for (j = i+1; j < n; j++){
+            if (strcmp(arr[j].ten,arr[min].ten)<0){
+                min = j;
+            }
+        }
+    temp = arr[i];
+    arr[i] = arr[min];
+    arr[min] = temp;
+    }
+}
 int partition (ds f[], int low, int high)
 {
     char pivot[30];
@@ -201,7 +237,9 @@ int main(){
     for(int i=0;i<size;i++){
         tach(&fi[i]);
     }
-    quickSort(fi,0,size-1);     //cac thuat toan sap xep
+    //insertionSort(fi,size-1);
+    selectionSort(fi,size-1);
+    //quickSort(fi,0,size-1);     //cac thuat toan sap xep
     //mergeSort(fi,0,size-1);
     //heapSort(fi,size);
     node head = NULL;
@@ -214,6 +252,7 @@ int main(){
         fprintf(dr,"sdt : %s\n",p->sdt);
         fprintf(dr,"gmail: %s\n\n",p->gmail);
     };
+    printf("Thong tin da in ra file dau ra, vui long kiem tra tren file dau ra!\n");
     fclose(f);
     fclose(dr);
 }
