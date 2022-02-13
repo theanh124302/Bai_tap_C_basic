@@ -237,9 +237,9 @@ int main(){
     for(int i=0;i<size;i++){
         tach(&fi[i]);
     }
-    //insertionSort(fi,size-1);
-    selectionSort(fi,size-1);
-    //quickSort(fi,0,size-1);     //cac thuat toan sap xep
+    //insertionSort(fi,size-1);     //cac thuat toan sap xep
+    //selectionSort(fi,size-1);
+    quickSort(fi,0,size-1);
     //mergeSort(fi,0,size-1);
     //heapSort(fi,size);
     node head = NULL;
