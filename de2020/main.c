@@ -182,6 +182,10 @@ int main()
             scanf("%d",&n);
         }
         if(n==1){
+            if(kiemtranhap==1){
+                printf("Ban da nap vao file r, vui long chay lai de nap file moi.\n");
+                break;
+            }
             head = input(f);
             kiemtranhap = 1;
         }
