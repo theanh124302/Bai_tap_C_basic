@@ -187,6 +187,7 @@ int main()
                 break;
             }
             head = input(f);
+            printf("Da nap file!\n");
             kiemtranhap = 1;
         }
         if(kiemtranhap==0){
