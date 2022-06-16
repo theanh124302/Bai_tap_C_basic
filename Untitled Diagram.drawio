@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T15:27:15.367Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="oA2rIoEOkdY8nYqDvgND" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T15:29:29.878Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Tr0k3fP-fvjwFtCcHKR-" version="20.0.1" type="github">
   <diagram id="74h-GRM4v4KSk-VVa7O4" name="Page-1">
     <mxGraphModel dx="1617" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MqrhuANYTPMiDo53EQpg-1" value="Lô giống" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="70" width="250" height="250" as="geometry" />
+          <mxGeometry x="370" y="230" width="250" height="250" as="geometry" />
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="MqrhuANYTPMiDo53EQpg-1">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -34,7 +34,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-53" value="Thú y" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="570" width="220" height="220" as="geometry" />
+          <mxGeometry x="1170" y="730" width="220" height="220" as="geometry" />
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-54" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="MqrhuANYTPMiDo53EQpg-53">
           <mxGeometry y="30" width="220" height="30" as="geometry" />
@@ -50,7 +50,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-66" value="Chuồng" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="70" width="250" height="160" as="geometry" />
+          <mxGeometry x="790" y="230" width="250" height="160" as="geometry" />
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-67" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="MqrhuANYTPMiDo53EQpg-66">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -79,7 +79,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-79" value="Mầm bệnh" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="890" y="320" width="230" height="220" as="geometry" />
+          <mxGeometry x="1180" y="480" width="230" height="220" as="geometry" />
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-80" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="MqrhuANYTPMiDo53EQpg-79">
           <mxGeometry y="30" width="230" height="30" as="geometry" />
@@ -121,7 +121,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-92" value="Loài" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="320" width="310" height="190" as="geometry" />
+          <mxGeometry x="750" y="480" width="310" height="190" as="geometry" />
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-93" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="MqrhuANYTPMiDo53EQpg-92">
           <mxGeometry y="30" width="310" height="30" as="geometry" />
@@ -137,7 +137,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-105" value="Vật nuôi" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="350" width="280" height="310" as="geometry" />
+          <mxGeometry x="370" y="510" width="280" height="310" as="geometry" />
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-106" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="MqrhuANYTPMiDo53EQpg-105">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
@@ -192,7 +192,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-118" value="Thuốc" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="890" y="70" width="230" height="130" as="geometry" />
+          <mxGeometry x="1180" y="230" width="230" height="130" as="geometry" />
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-119" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="MqrhuANYTPMiDo53EQpg-118">
           <mxGeometry y="30" width="230" height="30" as="geometry" />
@@ -234,7 +234,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-131" value="Thức ăn" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="540" width="320" height="250" as="geometry" />
+          <mxGeometry x="740" y="700" width="320" height="250" as="geometry" />
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-132" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="MqrhuANYTPMiDo53EQpg-131">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
@@ -263,194 +263,194 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-144" value="Số lượng (int) NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="110" y="250" width="220" height="30" as="geometry">
+          <mxGeometry x="400" y="410" width="220" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-145" value="Ngày nhập (date) NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="110" y="280" width="220" height="30" as="geometry">
+          <mxGeometry x="400" y="440" width="220" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-148" value="Giá bán (money)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="490" y="470" width="280" height="30" as="geometry">
+          <mxGeometry x="780" y="630" width="280" height="30" as="geometry">
             <mxRectangle width="230" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-149" value="Hạn sử dụng (date)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="482.5" y="750" width="285" height="30" as="geometry">
+          <mxGeometry x="772.5" y="910" width="285" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-150" value="Ngày sản xuất (date)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="480" y="720" width="285" height="30" as="geometry">
+          <mxGeometry x="770" y="880" width="285" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-159" value="Cách chữa (note)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="920" y="500" width="200" height="30" as="geometry">
+          <mxGeometry x="1210" y="660" width="200" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-160" value="Giới tính (varchar)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="910" y="750" width="190" height="30" as="geometry">
+          <mxGeometry x="1200" y="910" width="190" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-161" value="Ngày sinh (date)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="910" y="720" width="190" height="30" as="geometry">
+          <mxGeometry x="1200" y="880" width="190" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-163" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MqrhuANYTPMiDo53EQpg-93" target="MqrhuANYTPMiDo53EQpg-5">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="500" y="320" as="sourcePoint" />
-            <mxPoint x="330" y="250" as="targetPoint" />
+            <mxPoint x="790" y="480" as="sourcePoint" />
+            <mxPoint x="620" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-164" value="" style="fontSize=12;html=1;endArrow=ERmany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="MqrhuANYTPMiDo53EQpg-93" target="MqrhuANYTPMiDo53EQpg-83">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="670" y="760" as="sourcePoint" />
-            <mxPoint x="890" y="395" as="targetPoint" />
+            <mxPoint x="960" y="920" as="sourcePoint" />
+            <mxPoint x="1180" y="555" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-165" value="" style="fontSize=12;html=1;endArrow=ERmany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="MqrhuANYTPMiDo53EQpg-93" target="MqrhuANYTPMiDo53EQpg-70">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="650" y="670" as="sourcePoint" />
-            <mxPoint x="710" y="310" as="targetPoint" />
+            <mxPoint x="940" y="830" as="sourcePoint" />
+            <mxPoint x="1000" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-166" value="" style="fontSize=12;html=1;endArrow=ERmany;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MqrhuANYTPMiDo53EQpg-93" target="MqrhuANYTPMiDo53EQpg-115">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="420" y="490" as="sourcePoint" />
-            <mxPoint x="720" y="650" as="targetPoint" />
+            <mxPoint x="710" y="650" as="sourcePoint" />
+            <mxPoint x="1010" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-167" value="" style="fontSize=12;html=1;endArrow=ERmany;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="MqrhuANYTPMiDo53EQpg-93" target="MqrhuANYTPMiDo53EQpg-138">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="580" y="510" as="sourcePoint" />
-            <mxPoint x="640" y="610" as="targetPoint" />
+            <mxPoint x="870" y="670" as="sourcePoint" />
+            <mxPoint x="930" y="770" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="800" y="365" />
-              <mxPoint x="800" y="615" />
+              <mxPoint x="1090" y="525" />
+              <mxPoint x="1090" y="775" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-168" value="" style="fontSize=12;html=1;endArrow=ERmany;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="MqrhuANYTPMiDo53EQpg-54" target="MqrhuANYTPMiDo53EQpg-86">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="800" y="550" as="sourcePoint" />
-            <mxPoint x="980" y="560" as="targetPoint" />
+            <mxPoint x="1090" y="710" as="sourcePoint" />
+            <mxPoint x="1270" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-169" value="" style="fontSize=12;html=1;endArrow=ERmany;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MqrhuANYTPMiDo53EQpg-67" target="MqrhuANYTPMiDo53EQpg-112">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="420" y="120" as="sourcePoint" />
-            <mxPoint x="596.8800000000001" y="588.24" as="targetPoint" />
+            <mxPoint x="710" y="280" as="sourcePoint" />
+            <mxPoint x="886.8800000000001" y="748.24" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-170" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MqrhuANYTPMiDo53EQpg-2" target="MqrhuANYTPMiDo53EQpg-109">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="390" y="160" as="sourcePoint" />
-            <mxPoint x="640" y="370" as="targetPoint" />
+            <mxPoint x="680" y="320" as="sourcePoint" />
+            <mxPoint x="930" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-189" value="Nhà sản xuất (varchar)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="480" y="690" width="290" height="30" as="geometry">
+          <mxGeometry x="770" y="850" width="290" height="30" as="geometry">
             <mxRectangle width="290" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-191" value="Cách phòng (note)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="920" y="470" width="200" height="30" as="geometry">
+          <mxGeometry x="1210" y="630" width="200" height="30" as="geometry">
             <mxRectangle width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-192" value="Tên bệnh (varchar)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="920" y="440" width="200" height="30" as="geometry">
+          <mxGeometry x="1210" y="600" width="200" height="30" as="geometry">
             <mxRectangle width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-193" value="Số lượng thực tế (int) NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="530" y="190" width="220" height="30" as="geometry">
+          <mxGeometry x="820" y="350" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-194" value="Số lượng tối đa (int) NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="530" y="160" width="220" height="30" as="geometry">
+          <mxGeometry x="820" y="320" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-195" value="Giá mua giống (money)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="490" y="440" width="280" height="30" as="geometry">
+          <mxGeometry x="780" y="600" width="280" height="30" as="geometry">
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-196" value="Độ tuổi xuất chuồng (varchar)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="490" y="410" width="280" height="30" as="geometry">
+          <mxGeometry x="780" y="570" width="280" height="30" as="geometry">
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-197" value="Tên loài (varchar)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="490" y="380" width="280" height="30" as="geometry">
+          <mxGeometry x="780" y="540" width="280" height="30" as="geometry">
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-198" value="Tên thức ăn (varchar)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="480" y="630" width="290" height="30" as="geometry">
+          <mxGeometry x="770" y="790" width="290" height="30" as="geometry">
             <mxRectangle width="290" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-199" value="Giá bán (money)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="480" y="660" width="290" height="30" as="geometry">
+          <mxGeometry x="770" y="820" width="290" height="30" as="geometry">
             <mxRectangle width="290" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-200" value="Họ và tên (varchar)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="910" y="630" width="190" height="30" as="geometry">
+          <mxGeometry x="1200" y="790" width="190" height="30" as="geometry">
             <mxRectangle width="190" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-201" value="SDT (char)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="910" y="660" width="190" height="30" as="geometry">
+          <mxGeometry x="1200" y="820" width="190" height="30" as="geometry">
             <mxRectangle width="190" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-202" value="CCCD (char)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="910" y="690" width="190" height="30" as="geometry">
+          <mxGeometry x="1200" y="850" width="190" height="30" as="geometry">
             <mxRectangle width="190" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-203" value="giới tính (varchar)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="110" y="500" width="250" height="30" as="geometry">
+          <mxGeometry x="400" y="660" width="250" height="30" as="geometry">
             <mxRectangle width="250" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-204" value="tuổi (varchar)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="110" y="530" width="250" height="30" as="geometry">
+          <mxGeometry x="400" y="690" width="250" height="30" as="geometry">
             <mxRectangle width="250" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-205" value=" tình hình tiêm chủng (varchar)  NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="110" y="560" width="250" height="30" as="geometry">
+          <mxGeometry x="400" y="720" width="250" height="30" as="geometry">
             <mxRectangle width="250" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-206" value="SDT (char (10)) NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="110" y="220" width="220" height="30" as="geometry">
+          <mxGeometry x="400" y="380" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-207" value="Địa chỉ (varchar) NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="110" y="190" width="220" height="30" as="geometry">
+          <mxGeometry x="400" y="350" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-208" value="Tên cơ sở (varchar) NOT NULL " style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="110" y="160" width="220" height="30" as="geometry">
+          <mxGeometry x="400" y="320" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-209" value="Bốc thuốc" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="185" width="250" height="135" as="geometry" />
+          <mxGeometry x="1470" y="345" width="250" height="135" as="geometry" />
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-210" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="MqrhuANYTPMiDo53EQpg-209">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -479,20 +479,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-222" value="Liều lượng (note)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="280" width="190" height="30" as="geometry">
+          <mxGeometry x="1530" y="440" width="190" height="30" as="geometry">
             <mxRectangle width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-224" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MqrhuANYTPMiDo53EQpg-119" target="MqrhuANYTPMiDo53EQpg-210">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1080" y="330" as="sourcePoint" />
-            <mxPoint x="1150" y="230" as="targetPoint" />
+            <mxPoint x="1370" y="490" as="sourcePoint" />
+            <mxPoint x="1440" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MqrhuANYTPMiDo53EQpg-225" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MqrhuANYTPMiDo53EQpg-80" target="MqrhuANYTPMiDo53EQpg-213">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1320" y="515" as="sourcePoint" />
-            <mxPoint x="1420" y="415" as="targetPoint" />
+            <mxPoint x="1610" y="675" as="sourcePoint" />
+            <mxPoint x="1710" y="575" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
